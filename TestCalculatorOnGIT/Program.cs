@@ -10,7 +10,7 @@ namespace TestCalculatorOnGIT
     {
         static void Main(string[] args)
         {
-            string hello = "Emad";
+            int i = 0;
         }
     }
 }
