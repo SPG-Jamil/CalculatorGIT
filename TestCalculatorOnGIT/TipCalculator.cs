@@ -6,17 +6,17 @@ namespace TestCalculatorOnGIT
     {
         private const double TipRate = 0.18;
 
-        public static int Main(string[] args)
+        public static int Emad(string[] args)
         {
             double billTotal;
             if (args.Length == 0)
             {
-                Console.WriteLine("usage: TIPCALC total");
+                Console.WriteLine("usage: Emad total");
                 return 1;
             }
             if (!double.TryParse(args[0], out billTotal))
             {
-                Console.WriteLine("usage: TIPCALC total");
+                Console.WriteLine("usage: Emad total");
                 return 1;
             }
             var tip = billTotal*TipRate;
